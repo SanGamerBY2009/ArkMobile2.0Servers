@@ -1,0 +1,84 @@
+body{
+font-family:Arial, Sans-Serif;
+display:flex;
+flex-direction:column;
+background:#022640;
+}
+h1{
+text-align:center;
+color:#06c3c0;
+font-size:48px;
+}
+h2{
+  font-size:50px;
+  text-align:center;
+}
+p{
+font-size:30px;
+color:white;
+}
+a{
+  color:#c306bd;
+  font-size:20px;
+}
+li{
+  color:white;
+  font-size:30px;
+}
+.pvp{
+  color:red;
+}
+.mixtos{
+  color:yellow;
+}
+.pve{
+  color:green;
+}
+.msg{
+text-align:center;
+background:#05416d81;
+position:fixed;
+bottom:0;
+right:0.1px;
+font-size:37px;
+color:white;
+border:10px solid #05375c81;
+}
+.info li{
+  font-size:35px;
+  color:white;
+}
+.lista_de_servidores{
+justify-content:center;
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+}
+.sv_deco div{
+width:45%;
+border:5px solid #05375cc3;
+border-radius:10px;
+background: #05375c;
+}
+.sv_deco summary{
+font-size:30px;
+color:white;
+}
+.space li{
+color:white;
+margin-bottom:20px;
+}
+.space2 details{
+margin-bottom:25px;
+}
+.FAQ summary{
+  font-size:30px;
+  color:white;
+  font-weight:bold;
+}
+.espacio{
+  height:200px;
+}
+.contacto a{
+  font-size:30;
+}
